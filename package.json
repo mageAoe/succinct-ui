@@ -9,7 +9,10 @@
     "package": "vue-cli-service build --target lib ./src/package/index.js --name succinct-ui --dest succinct-ui"
   },
   "dependencies": {
+    "@iconify-icons/bx": "^1.2.6",
+    "@iconify-icons/dashicons": "^1.2.4",
     "core-js": "^3.8.3",
+    "iconify-icon": "^1.0.1",
     "less": "^4.1.3",
     "less-loader": "^11.0.0",
     "vue": "^2.6.14"
@@ -22,6 +25,7 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "purge-icons-webpack-plugin": "^0.9.1",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
